@@ -11,7 +11,7 @@ public class PropostaSeguro {
     }
 
     public String gerar(double valorVeiculo) {
-        var tipoVeiculo = calculadora instanceof FranquiaSeguroCarro
+        var tipoVeiculo = calculadora instanceof CalculadoraFranquiaSeguroCarro
                 ? ETipoVeiculo.CARRO
                 : ETipoVeiculo.MOTO;
 

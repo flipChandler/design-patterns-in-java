@@ -4,12 +4,12 @@ public enum ETipoVeiculo {
 
     CARRO {
         public CalculadoraFranquiaSeguro getCalculadora() {
-            return new FranquiaSeguroCarro();
+            return new CalculadoraFranquiaSeguroCarro();
         }
     } ,
     MOTO {
         public CalculadoraFranquiaSeguro getCalculadora() {
-            return new FranquiaSeguroMoto();
+            return new CalculadoraFranquiaSeguroMoto();
         }
     };
 

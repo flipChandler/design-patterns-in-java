@@ -1,6 +1,6 @@
 package strategy.seguro;
 
-public class FranquiaSeguroCarro implements CalculadoraFranquiaSeguro {
+public class CalculadoraFranquiaSeguroCarro implements CalculadoraFranquiaSeguro {
 
     @Override
     public double calcular(Cliente cliente, double valorCarro) {
