@@ -1,5 +1,7 @@
 package chainofresponsibility.desconto;
 
+import chainofresponsibility.Orcamento;
+
 import java.math.BigDecimal;
 
 public abstract class DescontoAbstract {

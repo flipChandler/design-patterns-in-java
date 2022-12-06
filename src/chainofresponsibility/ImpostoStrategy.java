@@ -1,4 +1,4 @@
-package chainofresponsibility.desconto;
+package chainofresponsibility;
 
 import java.math.BigDecimal;
 

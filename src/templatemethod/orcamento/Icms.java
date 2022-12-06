@@ -1,4 +1,4 @@
-package chainofresponsibility.desconto;
+package templatemethod.orcamento;
 
 import java.math.BigDecimal;
 

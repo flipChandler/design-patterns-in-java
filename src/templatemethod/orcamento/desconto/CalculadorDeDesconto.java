@@ -1,16 +1,16 @@
-package chainofresponsibility.desconto;
+package templatemethod.orcamento.desconto;
 
-import chainofresponsibility.Orcamento;
+import templatemethod.orcamento.Orcamento;
 
 import java.math.BigDecimal;
 
 public class CalculadorDeDesconto {
 
     public BigDecimal calcularDescontoSobre(Orcamento orcamento) {
-        var calculadorDeDesconto = new DescontoParaOrcamentoComMaisDeCincoItens(
+        var cadeiaDeDesconto = new DescontoParaOrcamentoComMaisDeCincoItens(
                 new DescontoParaOrcamentoComValorMaiorQueQuinhentos(
                         new SemDesconto()));
 
-        return calculadorDeDesconto.calcularDescontoSobre(orcamento);
+        return cadeiaDeDesconto.calcularDescontoSobre(orcamento);
     }
 }
