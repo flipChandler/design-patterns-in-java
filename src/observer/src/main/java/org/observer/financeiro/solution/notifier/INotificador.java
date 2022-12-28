@@ -8,7 +8,7 @@ import java.util.List;
 public interface INotificador {
 
     void registrarListener(Listener listener);
-    void removerlistener(Listener listener);
+    void removerListener(Listener listener);
     void notificarListeners();
     void adicionarNovos(List<Lancamento> lancamentosVencidos);
     List<Lancamento> getAllLancamentosVencidos();

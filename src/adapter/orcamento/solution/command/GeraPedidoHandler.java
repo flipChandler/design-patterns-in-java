@@ -1,8 +1,10 @@
-package org.observer.orcamento.solution.command;
+package adapter.orcamento.solution.command;
 
-import org.observer.orcamento.solution.Orcamento;
-import org.observer.orcamento.solution.Pedido;
-import org.observer.orcamento.solution.service.AcaoAposGerarPedido;
+
+
+import adapter.orcamento.solution.Orcamento;
+import adapter.orcamento.solution.Pedido;
+import adapter.orcamento.solution.service.AcaoAposGerarPedido;
 
 import java.time.LocalDateTime;
 import java.util.List;

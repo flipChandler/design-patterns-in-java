@@ -22,7 +22,7 @@ public class NotificadorLancamentosVencidosImpl implements INotificador {
     }
 
     @Override
-    public void removerlistener(Listener listener) {
+    public void removerListener(Listener listener) {
         this.listeners.remove(listener);
     }
 
