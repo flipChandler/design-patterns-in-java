@@ -6,7 +6,7 @@ import command.orcamento.command.GeraPedidoHandler;
 import java.math.BigDecimal;
 import java.util.Scanner;
 
-public class Application {
+public class ApplicationCommand {
 
     public static void main(String[] args) {
         try (Scanner scanner = new Scanner(System.in)) {
