@@ -1,10 +1,10 @@
 package facade.cliente;
 
-public class HistoricoAcesso {
+public class HistoricoAcessoService {
 
     private Cliente cliente;
 
-    public HistoricoAcesso(Cliente cliente) {
+    public HistoricoAcessoService(Cliente cliente) {
         this.cliente = cliente;
     }
 

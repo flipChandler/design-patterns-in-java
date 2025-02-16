@@ -1,10 +1,10 @@
 package facade.cliente;
 
-public class Email {
+public class EmailService {
 
     private Cliente cliente;
 
-    public Email(Cliente cliente) {
+    public EmailService(Cliente cliente) {
         this.cliente = cliente;
     }
 

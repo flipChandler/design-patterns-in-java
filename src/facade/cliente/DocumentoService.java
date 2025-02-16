@@ -1,10 +1,10 @@
 package facade.cliente;
 
-public class Documentos {
+public class DocumentoService {
 
     private Cliente cliente;
 
-    public Documentos(Cliente cliente) {
+    public DocumentoService(Cliente cliente) {
         this.cliente = cliente;
     }
 

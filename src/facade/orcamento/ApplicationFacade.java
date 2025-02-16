@@ -13,6 +13,11 @@ import java.util.List;
 
 public class ApplicationFacade {
 
+    /*
+        O Facade é um padrão de projeto estrutural que fornece uma interface simplificada
+        para uma biblioteca, um framework, ou qualquer conjunto complexo de classes.
+     */
+
     public static void main(String[] args) {
         String cliente = "Ana da Silva";
         BigDecimal valorOrcamento = new BigDecimal("745.99");

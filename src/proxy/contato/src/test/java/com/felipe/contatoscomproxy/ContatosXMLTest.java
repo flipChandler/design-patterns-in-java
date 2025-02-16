@@ -8,8 +8,8 @@ public class ContatosXMLTest {
 
     @Test
     public void buscarPor_deveRetornarContato_seSolicitado() {
-        Contatos contatos = new ContatosXMLProxy("contatos1.xml", "contatos2.xml");
-        String nome = contatos.buscarPor("jose@email.com");
+        ContatoRepository contatos = new ContatoRepositoryXMLProxy("contatos1.xml", "contatos2.xml");
+        String nome = contatos.buscarPorEmail("jose@email.com");
         assertThat("José Santos").isEqualTo(nome);
     }
 }

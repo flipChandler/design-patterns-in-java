@@ -1,10 +1,10 @@
 package facade.cliente;
 
-public class Avatar {
+public class AvatarService {
 
     private Cliente cliente;
 
-    public Avatar(Cliente cliente) {
+    public AvatarService(Cliente cliente) {
         this.cliente = cliente;
     }
 
